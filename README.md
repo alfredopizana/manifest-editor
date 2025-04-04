@@ -20,3 +20,10 @@ Run the Docker container
 ```
 docker run -p 8501:8501 manifest-editor
 ```
+
+
+### Expose the container
+
+```
+ngrok http 8501
+```
