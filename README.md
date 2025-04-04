@@ -18,7 +18,7 @@ docker build -t manifest-editor .
 
 Run the Docker container
 ```
-docker run -p 8501:8501 manifest-editor
+docker run --env-file .env -p 8501:8501 manifest-editor 
 ```
 
 
